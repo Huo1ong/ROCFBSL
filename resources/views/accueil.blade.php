@@ -69,7 +69,7 @@
             direction@mfkamouraska.com
         </label>
         <br>
-        <a href="https://www.mfkamouraska.com/" class="cta">Accéder au site</a>
+        <a href="https://www.mfkamouraska.com/" target="blank_" class="cta">Accéder au site</a>
     </div>
 
     <!-- 2 - Maison de la Famille du Grand Portage -->
@@ -88,7 +88,7 @@
             info@mamaisondelafamille.org
         </label>
         <br>
-        <a href="https://www.mamaisondelafamille.org/fr/" class="cta">Accéder au site</a>
+        <a href="https://www.mamaisondelafamille.org/fr/" target="blank_" class="cta">Accéder au site</a>
     </div>
 
     <!-- 3 - Acti-Familles ... -->
@@ -107,7 +107,7 @@
             direction@actifamilles.org
         </label>
         <br>
-        <a href="https://actifamilles.org/" class="cta">Accéder au site</a>
+        <a href="https://actifamilles.org/" target="blank_" class="cta">Accéder au site</a>
     </div>
 
     <!-- 4 - Re-Sources Familles ... -->
@@ -126,7 +126,7 @@
             direction@re-sourcefamilles.org
         </label>
         <br>
-        <a href="https://www.re-sourcefamilles.org/" class="cta">Accéder au site</a>
+        <a href="https://www.re-sourcefamilles.org/" target="blank_" class="cta">Accéder au site</a>
     </div>
 
     <!-- 5 - Maison de la famille du Témiscouata ... -->
@@ -145,7 +145,7 @@
             maisondelafamille@qc.aira.com
         </label>
         <br>
-        <a href="https://www.mdftemiscouata.com/" class="cta">Accéder au site</a>
+        <a href="https://www.mdftemiscouata.com/" target="blank_" class="cta">Accéder au site</a>
     </div>
 
     <!-- 6 - Maison de la Famille des Basques -->
@@ -164,7 +164,7 @@
             info@mdfbasques.com
         </label>
         <br>
-        <a href="https://mdfbasques.com/" class="cta">Accéder au site</a>
+        <a href="https://mdfbasques.com/" target="blank_" class="cta">Accéder au site</a>
     </div>
 
     <!-- 7 - Maison de la Famille de Rimouski-Neigette -->
@@ -183,7 +183,7 @@
             tracy.thibeault@maisonfamillesrimouski.com
         </label>
         <br>
-        <a href="https://maisonfamillesrimouski.com/" class="cta">Accéder au site</a>
+        <a href="https://maisonfamillesrimouski.com/" target="blank_" class="cta">Accéder au site</a>
     </div>
 
     <!-- 8 - Maison de la Famille de la Mitis -->
@@ -222,7 +222,7 @@
             chantal@maisondesfamillesmatanie.org
         </label>
         <br>
-        <a href="https://www.maisondesfamillesmatanie.org/" class="cta">Accéder au site</a>
+        <a href="https://www.maisondesfamillesmatanie.org/" target="blank_" class="cta">Accéder au site</a>
     </div>
 
     <!-- 10 - Maison de la Famille de la Matapédia -->
@@ -241,7 +241,7 @@
             direction.mdfmatapedia@hotmail.com
         </label>
         <br>
-        <a href="https://www.mdfmatapedia.org/" class="cta">Accéder au site</a>
+        <a href="https://www.mdfmatapedia.org/" target="blank_" class="cta">Accéder au site</a>
     </div>
 </div>
 @endsection

@@ -94,7 +94,77 @@ input {
 
 #b10 {
     position: absolute;
-    left: 68%; top: 29%;
+        left: 68%; top: 29%;
+}
+
+/* PC Full HD */
+@media screen and (max-width: 2100px) {
+    .button {
+        padding: 10.5px 10.5px;
+        border-width: 4.5px;
+    }
+
+    .content {
+        margin-top: -960px;
+        width: 46%;
+        font-size: 28px;
+    }
+
+    a.cta {
+        margin-top: 18px;
+        padding: 25px 35px;
+    }
+
+    #b1 {
+        position: absolute;
+        left: 29%; top: 64%;
+    }
+
+    #b2 {
+        position: absolute;
+        left: 36%; top: 48.5%;
+    }
+
+    #b3 {
+        position: absolute;
+        left: 41%; top: 70%;
+    }
+
+    #b4 {
+        position: absolute;
+        left: 45%; top: 63%;
+    }
+
+    #b5 {
+        position: absolute;
+        left: 49.5%; top: 49.5%;
+    }
+
+    #b6 {
+        position: absolute;
+        left: 41.5%; top: 41.5%;
+    }
+
+    #b7 {
+        position: absolute;
+        left: 52.5%; top: 29.5%;
+    }
+
+    #b8 {
+        position: absolute;
+        left: 59%; top: 24%;
+    }
+
+    #b9 {
+        position: absolute;
+        left: 70%; top: 27%;
+    }
+
+    #b10 {
+        position: absolute;
+        left: 68%; top: 18%;
+    }
+
 }
 
 /* PC Full HD */
@@ -163,6 +233,74 @@ input {
     #b10 {
         position: absolute;
         left: 68%; top: 18%;
+    }
+
+}
+
+@media screen and (max-width: 1700px) {
+    .logoMaison {
+        width: 70%;
+    }
+
+    .content {
+        margin-top: -750px;
+        width: 30%;
+        font-size: 17px;
+    }
+
+    a.cta {
+        margin-top: 15px;
+        padding: 15px 25px;
+    }
+
+    #b1 {
+        position: absolute;
+        left: 29%; top: 66%;
+    }
+
+    #b2 {
+        position: absolute;
+        left: 36%; top: 49.5%;
+    }
+
+    #b3 {
+        position: absolute;
+        left: 41%; top: 72%;
+    }
+
+    #b4 {
+        position: absolute;
+        left: 45%; top: 65%;
+    }
+
+    #b5 {
+        position: absolute;
+        left: 49.5%; top: 51.5%;
+    }
+
+    #b6 {
+        position: absolute;
+        left: 41.5%; top: 43.5%;
+    }
+
+    #b7 {
+        position: absolute;
+        left: 52.5%; top: 30.5%;
+    }
+
+    #b8 {
+        position: absolute;
+        left: 59%; top: 25%;
+    }
+
+    #b9 {
+        position: absolute;
+        left: 70%; top: 18%;
+    }
+
+    #b10 {
+        position: absolute;
+        left: 68%; top: 29%;
     }
 
 }
