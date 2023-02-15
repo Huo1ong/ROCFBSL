@@ -97,8 +97,85 @@ input {
         left: 68%; top: 29%;
 }
 
-/* PC Full HD */
-@media screen and (max-width: 2100px) {
+/* PC 4k ou Ultra HD */
+@media screen and (max-width: 4000px) {
+    .logoMaison {
+        width: 71%;
+    }
+
+    .button {
+        padding: 30.5px 30.5px;
+        border-width: 7.5px;
+    }
+
+    .content {
+        margin-top: -1970px;
+        width: 40%;
+        font-size: 45px;
+    }
+
+    a.cta {
+        margin-top: 18px;
+        padding: 25px 35px;
+    }
+
+    #b1 {
+        position: absolute;
+        left: 29%; top: 60%;
+    }
+
+    #b2 {
+        position: absolute;
+        left: 36%; top: 44.5%;
+    }
+
+    #b3 {
+        position: absolute;
+        left: 41%; top: 67%;
+    }
+
+    #b4 {
+        position: absolute;
+        left: 45%; top: 60%;
+    }
+
+    #b5 {
+        position: absolute;
+        left: 49.5%; top: 45.5%;
+    }
+
+    #b6 {
+        position: absolute;
+        left: 41.5%; top: 37.5%;
+    }
+
+    #b7 {
+        position: absolute;
+        left: 52.5%; top: 25.5%;
+    }
+
+    #b8 {
+        position: absolute;
+        left: 59%; top: 19%;
+    }
+
+    #b9 {
+        position: absolute;
+        left: 68%; top: 23%;
+    }
+
+    #b10 {
+        position: absolute;
+        left: 68%; top: 13%;
+    }
+
+}
+
+@media screen and (max-width: 2300px) {
+    .logoMaison {
+        width: 65%;
+    }
+
     .button {
         padding: 10.5px 10.5px;
         border-width: 4.5px;
@@ -106,8 +183,82 @@ input {
 
     .content {
         margin-top: -960px;
-        width: 46%;
-        font-size: 28px;
+        width: 35%;
+        font-size: 25px;
+    }
+
+    a.cta {
+        margin-top: 18px;
+        padding: 25px 35px;
+    }
+
+    #b1 {
+        position: absolute;
+        left: 29%; top: 64%;
+    }
+
+    #b2 {
+        position: absolute;
+        left: 36%; top: 48.5%;
+    }
+
+    #b3 {
+        position: absolute;
+        left: 41%; top: 70%;
+    }
+
+    #b4 {
+        position: absolute;
+        left: 45%; top: 63%;
+    }
+
+    #b5 {
+        position: absolute;
+        left: 49.5%; top: 49.5%;
+    }
+
+    #b6 {
+        position: absolute;
+        left: 41.5%; top: 41.5%;
+    }
+
+    #b7 {
+        position: absolute;
+        left: 52.5%; top: 29.5%;
+    }
+
+    #b8 {
+        position: absolute;
+        left: 59%; top: 24%;
+    }
+
+    #b9 {
+        position: absolute;
+        left: 70%; top: 27%;
+    }
+
+    #b10 {
+        position: absolute;
+        left: 68%; top: 18%;
+    }
+
+}
+
+/* PC Full HD */
+@media screen and (max-width: 2100px) {
+    .logoMaison {
+        width: 65%;
+    }
+
+    .button {
+        padding: 10.5px 10.5px;
+        border-width: 4.5px;
+    }
+
+    .content {
+        margin-top: -960px;
+        width: 35%;
+        font-size: 25px;
     }
 
     a.cta {
@@ -233,6 +384,142 @@ input {
     #b10 {
         position: absolute;
         left: 68%; top: 18%;
+    }
+
+}
+
+@media screen and (max-width: 1950px) {
+    .logoMaison {
+        width: 70%;
+    }
+
+    .content {
+        margin-top: -950px;
+        width: 30%;
+        font-size: 17px;
+    }
+
+    a.cta {
+        margin-top: 15px;
+        padding: 15px 25px;
+    }
+
+    #b1 {
+        position: absolute;
+        left: 29%; top: 66%;
+    }
+
+    #b2 {
+        position: absolute;
+        left: 36%; top: 49.5%;
+    }
+
+    #b3 {
+        position: absolute;
+        left: 41%; top: 72%;
+    }
+
+    #b4 {
+        position: absolute;
+        left: 45%; top: 65%;
+    }
+
+    #b5 {
+        position: absolute;
+        left: 49.5%; top: 51.5%;
+    }
+
+    #b6 {
+        position: absolute;
+        left: 41.5%; top: 43.5%;
+    }
+
+    #b7 {
+        position: absolute;
+        left: 52.5%; top: 30.5%;
+    }
+
+    #b8 {
+        position: absolute;
+        left: 59%; top: 25%;
+    }
+
+    #b9 {
+        position: absolute;
+        left: 70%; top: 18%;
+    }
+
+    #b10 {
+        position: absolute;
+        left: 68%; top: 29%;
+    }
+
+}
+
+@media screen and (max-width: 1850px) {
+    .logoMaison {
+        width: 70%;
+    }
+
+    .content {
+        margin-top: -750px;
+        width: 30%;
+        font-size: 17px;
+    }
+
+    a.cta {
+        margin-top: 15px;
+        padding: 15px 25px;
+    }
+
+    #b1 {
+        position: absolute;
+        left: 29%; top: 66%;
+    }
+
+    #b2 {
+        position: absolute;
+        left: 36%; top: 49.5%;
+    }
+
+    #b3 {
+        position: absolute;
+        left: 41%; top: 72%;
+    }
+
+    #b4 {
+        position: absolute;
+        left: 45%; top: 65%;
+    }
+
+    #b5 {
+        position: absolute;
+        left: 49.5%; top: 51.5%;
+    }
+
+    #b6 {
+        position: absolute;
+        left: 41.5%; top: 43.5%;
+    }
+
+    #b7 {
+        position: absolute;
+        left: 52.5%; top: 30.5%;
+    }
+
+    #b8 {
+        position: absolute;
+        left: 59%; top: 25%;
+    }
+
+    #b9 {
+        position: absolute;
+        left: 70%; top: 18%;
+    }
+
+    #b10 {
+        position: absolute;
+        left: 68%; top: 29%;
     }
 
 }
@@ -447,15 +734,15 @@ input {
         padding: 9px 9px;
     }
 
-}
+} /**/
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1100px) { /**/
     .button {
         padding: 8.5px 8.5px;
     }
 
     .content {
-        margin-top: -470px;
+        margin-top: -510px;
         width: 40%;
         font-size: 12px;
     }
@@ -574,7 +861,7 @@ input {
         padding: 8px 8px;
     }
 
-}
+} /**/
 
 @media screen and (max-width: 900px) {
     .button {
@@ -630,7 +917,7 @@ input {
         left: 67%;
         top: 37.5%;
     }
-}
+} /**/
 
 /* Tablette (small) mode paysage */
 @media screen and (max-width: 820px) {
@@ -699,7 +986,7 @@ input {
     }
 
     .content {
-        margin-top: -230px;
+        margin-top: -330px;
         width: 50%;
         font-size: 8px;
     }
@@ -895,6 +1182,7 @@ input {
 @media screen and (max-width: 600px) {
     .button {
         padding: 4.5px 4.5px;
+        border-width: 2px;
     }
 
     .content {
