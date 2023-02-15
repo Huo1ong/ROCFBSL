@@ -1,0 +1,1324 @@
+/** Carte interactive - Début **/
+input {
+    display: none;
+}
+
+.button {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: #ffffff;
+    display: block;
+    padding: 10px 10px;
+    border-radius: 100%;
+    cursor: pointer;
+    animation: fadein .5s;
+    animation: pulse 1.5s infinite;
+    border-color: black;
+    border-style: solid;
+}
+
+
+
+.content {
+    background: white;
+    padding: 1rem 1rem 2rem 1rem;
+    text-align: center;
+    display: none;
+    margin: 10%;
+    border-radius: 8px;
+    box-shadow: 0 4px 2px -2px rgba(211,47,47,0);
+    border-color: black;
+    border-style: solid;
+    width: fit-content;
+    margin-top: -700px;
+}
+
+.carteInteractive {
+    margin-top: 96px;
+    z-index: -1;
+}
+
+.logoMaison {
+    width: 75%;
+}
+
+.cross {
+    font-weight: bold;
+}
+
+#b1 {
+    position: absolute;
+    left: 29%; top: 66%;
+}
+
+#b2 {
+    position: absolute;
+    left: 36%; top: 51%;
+}
+
+#b3 {
+    position: absolute;
+    left: 41%; top: 72%;
+}
+
+#b4 {
+    position: absolute;
+    left: 45%; top: 65%;
+}
+
+#b5 {
+    position: absolute;
+    left: 50%; top: 52%;
+}
+
+#b6 {
+    position: absolute;
+    left: 41.5%; top: 44.5%;
+}
+
+#b7 {
+    position: absolute;
+    left: 52.5%; top: 31.5%;
+}
+
+#b8 {
+    position: absolute;
+    left: 59%; top: 27%;
+}
+
+#b9 {
+    position: absolute;
+    left: 70%; top: 19%;
+}
+
+#b10 {
+    position: absolute;
+    left: 68%; top: 29%;
+}
+
+/* PC Full HD */
+@media screen and (max-width: 2050px) {
+    .button {
+        padding: 10.5px 10.5px;
+        border-width: 4.5px;
+    }
+
+    .content {
+        margin-top: -960px;
+        width: 46%;
+        font-size: 28px;
+    }
+
+    a.cta {
+        margin-top: 18px;
+        padding: 25px 35px;
+    }
+
+    #b1 {
+        position: absolute;
+        left: 29%; top: 64%;
+    }
+
+    #b2 {
+        position: absolute;
+        left: 36%; top: 48.5%;
+    }
+
+    #b3 {
+        position: absolute;
+        left: 41%; top: 70%;
+    }
+
+    #b4 {
+        position: absolute;
+        left: 45%; top: 63%;
+    }
+
+    #b5 {
+        position: absolute;
+        left: 49.5%; top: 49.5%;
+    }
+
+    #b6 {
+        position: absolute;
+        left: 41.5%; top: 41.5%;
+    }
+
+    #b7 {
+        position: absolute;
+        left: 52.5%; top: 29.5%;
+    }
+
+    #b8 {
+        position: absolute;
+        left: 59%; top: 24%;
+    }
+
+    #b9 {
+        position: absolute;
+        left: 70%; top: 27%;
+    }
+
+    #b10 {
+        position: absolute;
+        left: 68%; top: 18%;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    #b1 {
+        position: absolute;
+        left: 29%; top: 80%;
+    }
+
+    #b2 {
+        position: absolute;
+        left: 36%; top: 52.5%;
+    }
+
+    #b3 {
+        position: absolute;
+        left: 41%; top: 74%;
+    }
+
+    #b4 {
+        position: absolute;
+        left: 45%; top: 67%;
+    }
+
+    #b5 {
+        position: absolute;
+        left: 50%; top: 54%;
+    }
+
+    #b6 {
+        position: absolute;
+        left: 41.5%; top: 46.5%;
+    }
+
+    #b7 {
+        position: absolute;
+        left: 52.5%; top: 33.5%;
+    }
+
+    #b8 {
+        position: absolute;
+        left: 59%; top: 29%;
+    }
+
+    #b9 {
+        position: absolute;
+        left: 70%; top: 21%;
+    }
+
+    #b10 {
+        position: absolute;
+        left: 68%; top: 31%;
+    }
+
+}
+
+/* Pc HD */
+@media screen and (max-width: 1320px) {
+   .content {
+       margin-top: -620px;
+   }
+
+    a.cta {
+        margin-top: 18px;
+        padding: 17px 29px;
+    }
+
+    #b1 {
+        position: absolute;
+        left: 29%; top: 68%;
+    }
+
+    #b5 {
+        position: absolute;
+        left: 49.5%; top: 53%;
+    }
+
+    #b6 {
+        position: absolute;
+        left: 41.5%;
+        top: 45.5%;
+    }
+
+    #b8 {
+        position: absolute;
+        left: 59%;
+        top: 28%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #b1 {
+        position: absolute;
+        left: 29%; top: 70%;
+    }
+
+    #b2 {
+        position: absolute;
+        left: 36%; top: 52.5%;
+    }
+
+    #b3 {
+        position: absolute;
+        left: 41%; top: 74%;
+    }
+
+    #b4 {
+        position: absolute;
+        left: 45%; top: 67%;
+    }
+
+    #b5 {
+        position: absolute;
+        left: 50%; top: 54%;
+    }
+
+    #b6 {
+        position: absolute;
+        left: 41.5%; top: 46.5%;
+    }
+
+    #b7 {
+        position: absolute;
+        left: 52.5%; top: 33.5%;
+    }
+
+    #b8 {
+        position: absolute;
+        left: 59%; top: 29%;
+    }
+
+    #b9 {
+        position: absolute;
+        left: 70%; top: 21%;
+    }
+
+    #b10 {
+        position: absolute;
+        left: 68%; top: 31%;
+    }
+
+    .button {
+        padding: 9px 9px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .button {
+        padding: 8.5px 8.5px;
+    }
+
+    .content {
+        margin-top: -470px;
+        width: 40%;
+        font-size: 12px;
+    }
+
+    .logoMaison {
+        width: 60%;
+    }
+
+    a.cta {
+        margin-top: 18px;
+    }
+
+    #b1 {
+        left: 29%;
+        top: 70%;
+    }
+
+    #b2 {
+        left: 36%;
+        top: 54.5%;
+    }
+
+    #b3 {
+        left: 41%;
+        top: 76%;
+    }
+
+    #b4 {
+        left: 45%;
+        top: 70%;
+    }
+
+    #b5 {
+        left: 49%;
+        top: 56%;
+    }
+
+    #b6 {
+        left: 41%;
+        top: 49.5%;
+    }
+
+    #b7 {
+        left: 52.5%;
+        top: 36.5%;
+    }
+
+    #b8 {
+        left: 59%;
+        top: 31%;
+    }
+
+    #b9 {
+        left: 70%;
+        top: 23.5%;
+    }
+
+    #b10 {
+        left: 67%;
+        top: 32.5%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #b1 {
+        position: absolute;
+        left: 29%; top: 71%;
+    }
+
+    #b2 {
+        position: absolute;
+        left: 36%; top: 56.5%;
+    }
+
+    #b3 {
+        position: absolute;
+        left: 41%; top: 77%;
+    }
+
+    #b4 {
+        position: absolute;
+        left: 45%; top: 70%;
+    }
+
+    #b5 {
+        position: absolute;
+        left: 49.5%; top: 57%;
+    }
+
+    #b6 {
+        position: absolute;
+        left: 41.5%; top: 49.5%;
+    }
+
+    #b7 {
+        position: absolute;
+        left: 52.5%; top: 37.5%;
+    }
+
+    #b8 {
+        position: absolute;
+        left: 59%; top: 31%;
+    }
+
+    #b9 {
+        position: absolute;
+        left: 70%; top: 24%;
+    }
+
+    #b10 {
+        position: absolute;
+        left: 68%; top: 34%;
+    }
+
+    .button {
+        padding: 8px 8px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .button {
+        padding: 7.5px 7.5px;
+    }
+
+    #b1 {
+        left: 29%;
+        top: 74%;
+    }
+
+    #b2 {
+        left: 36%;
+        top: 58.5%;
+    }
+
+    #b3 {
+        left: 41%;
+        top: 76%;
+    }
+
+    #b4 {
+        left: 45%;
+        top: 71%;
+    }
+
+    #b5 {
+        left: 49%;
+        top: 60%;
+    }
+
+    #b6 {
+        left: 41%;
+        top: 53.5%;
+    }
+
+    #b7 {
+        left: 52.5%;
+        top: 41.5%;
+    }
+
+    #b8 {
+        left: 59%;
+        top: 36%;
+    }
+
+    #b9 {
+        left: 70%;
+        top: 28.5%;
+    }
+
+    #b10 {
+        left: 67%;
+        top: 37.5%;
+    }
+}
+
+/* Tablette (small) mode paysage */
+@media screen and (max-width: 820px) {
+    .button {
+        padding: 7.5px 7.5px;
+    }
+
+    .content {
+        margin-top: -350px;
+    }
+
+    #b1 {
+        left: 29%;
+        top: 74%;
+    }
+
+    #b2 {
+        left: 36%;
+        top: 58.5%;
+    }
+
+    #b3 {
+        left: 41%;
+        top: 79%;
+    }
+
+    #b4 {
+        left: 45%;
+        top: 71%;
+    }
+
+    #b5 {
+        left: 49%;
+        top: 59.5%;
+    }
+
+    #b6 {
+        left: 41%;
+        top: 53.5%;
+    }
+
+    #b7 {
+        left: 52.5%;
+        top: 41.5%;
+    }
+
+    #b8 {
+        left: 59%;
+        top: 36%;
+    }
+
+    #b9 {
+        left: 70%;
+        top: 28.5%;
+    }
+
+    #b10 {
+        left: 67%;
+        top: 37.5%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .button {
+        padding: 7px 7px;
+    }
+
+    .content {
+        margin-top: -230px;
+        width: 50%;
+        font-size: 8px;
+    }
+
+    a.cta {
+        margin-top: 18px;
+    }
+
+    #b1 {
+        left: 29%;
+        top: 74%;
+    }
+
+    #b2 {
+        left: 36%;
+        top: 58.5%;
+    }
+
+    #b3 {
+        left: 41%;
+        top: 76%;
+    }
+
+    #b4 {
+        left: 45%;
+        top: 71%;
+    }
+
+    #b5 {
+        left: 49%;
+        top: 60%;
+    }
+
+    #b6 {
+        left: 41%;
+        top: 53.5%;
+    }
+
+    #b7 {
+        left: 52.5%;
+        top: 41.5%;
+    }
+
+    #b8 {
+        left: 59%;
+        top: 36%;
+    }
+
+    #b9 {
+        left: 70%;
+        top: 28.5%;
+    }
+
+    #b10 {
+        left: 67%;
+        top: 37.5%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .button {
+        padding: 4.5px 4.5px;
+    }
+
+    .content {
+        margin-top: -230px;
+        width: 50%;
+        font-size: 8px;
+    }
+
+    a.cta {
+        margin-top: 18px;
+    }
+
+    #b1 {
+        left: 29%;
+        top: 77%;
+    }
+
+    #b2 {
+        left: 36%;
+        top: 61.5%;
+    }
+
+    #b3 {
+        left: 41%;
+        top: 79%;
+    }
+
+    #b4 {
+        left: 45%;
+        top: 74%;
+    }
+
+    #b5 {
+        left: 49%;
+        top: 63%;
+    }
+
+    #b6 {
+        left: 41%;
+        top: 56.5%;
+    }
+
+    #b7 {
+        left: 52.5%;
+        top: 44.5%;
+    }
+
+    #b8 {
+        left: 59%;
+        top: 39%;
+    }
+
+    #b9 {
+        left: 70%;
+        top: 31.5%;
+    }
+
+    #b10 {
+        left: 67%;
+        top: 40.5%;
+    }
+}
+
+/* Tablette (small) mode portrait */
+@media screen and (max-width: 620px) {
+    .button {
+        padding: 4.5px 4.5px;
+    }
+
+    .content {
+        margin-top: -250px;
+        width: 40%;
+        font-size: 8px;
+    }
+
+    a.cta {
+        margin-top: 18px;
+    }
+
+    #b1 {
+        left: 29%;
+        top: 79%;
+    }
+
+    #b2 {
+        left: 36%;
+        top: 64.5%;
+    }
+
+    #b3 {
+        left: 41%;
+        top: 85%;
+    }
+
+    #b4 {
+        left: 45%;
+        top: 76%;
+    }
+
+    #b5 {
+        left: 49.5%;
+        top: 65.5%;
+    }
+
+    #b6 {
+        left: 41%;
+        top: 58.5%;
+    }
+
+    #b7 {
+        left: 52.5%;
+        top: 46.5%;
+    }
+
+    #b8 {
+        left: 59%;
+        top: 41%;
+    }
+
+    #b9 {
+        left: 70%;
+        top: 33.5%;
+    }
+
+    #b10 {
+        left: 67%;
+        top: 42.5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .button {
+        padding: 4.5px 4.5px;
+    }
+
+    .content {
+        margin-top: -230px;
+        width: 50%;
+        font-size: 8px;
+    }
+
+    a.cta {
+        margin-top: 18px;
+    }
+
+    #b1 {
+        left: 29%;
+        top: 79%;
+    }
+
+    #b2 {
+        left: 36%;
+        top: 63.5%;
+    }
+
+    #b3 {
+        left: 41%;
+        top: 81%;
+    }
+
+    #b4 {
+        left: 45%;
+        top: 76%;
+    }
+
+    #b5 {
+        left: 49%;
+        top: 65%;
+    }
+
+    #b6 {
+        left: 41%;
+        top: 58.5%;
+    }
+
+    #b7 {
+        left: 52.5%;
+        top: 46.5%;
+    }
+
+    #b8 {
+        left: 59%;
+        top: 41%;
+    }
+
+    #b9 {
+        left: 70%;
+        top: 33.5%;
+    }
+
+    #b10 {
+        left: 67%;
+        top: 42.5%;
+    }
+}
+
+/* Mobile mode paysage */
+@media screen and (max-width: 500px) {
+    .button {
+        padding: 4.5px 4.5px;
+        border-width: 1px;
+    }
+
+    .content {
+        margin-top: -180px;
+        width: 50%;
+        font-size: 8px;
+    }
+
+    a.cta {
+        margin-top: 18px;
+    }
+
+    #b1 {
+        left: 29%;
+        top: 85%;
+    }
+
+    #b2 {
+        left: 36%;
+        top: 70.5%;
+    }
+
+    #b3 {
+        left: 41%;
+        top: 90%;
+    }
+
+    #b4 {
+        left: 45%;
+        top: 83%;
+    }
+
+    #b5 {
+        left: 49.5%;
+        top: 71%;
+    }
+
+    #b6 {
+        left: 41%;
+        top: 64.5%;
+    }
+
+    #b7 {
+        left: 52.5%;
+        top: 52.5%;
+    }
+
+    #b8 {
+        left: 59%;
+        top: 47%;
+    }
+
+    #b9 {
+        left: 70%;
+        top: 40%;
+    }
+
+    #b10 {
+        left: 67%;
+        top: 48.5%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .button {
+        padding: 4.5px 4.5px;
+        border-width: 1.25px;
+    }
+
+    .content {
+        margin-top: -130px;
+        width: 50%;
+        font-size: 8px;
+    }
+
+    a.cta {
+        margin-top: 18px;
+    }
+
+    #b1 {
+        left: 29%;
+        top: 92%;
+    }
+
+    #b2 {
+        left: 36%;
+        top: 76.5%;
+    }
+
+    #b3 {
+        left: 41%;
+        top: 94%;
+    }
+
+    #b4 {
+        left: 45%;
+        top: 89%;
+    }
+
+    #b5 {
+        left: 49%;
+        top: 78%;
+    }
+
+    #b6 {
+        left: 41%;
+        top: 71.5%;
+    }
+
+    #b7 {
+        left: 52.5%;
+        top: 59.5%;
+    }
+
+    #b8 {
+        left: 59%;
+        top: 54%;
+    }
+
+    #b9 {
+        left: 70%;
+        top: 46.5%;
+    }
+
+    #b10 {
+        left: 67%;
+        top: 55.5%;
+    }
+}
+
+/* Mobile mode portrait */
+@media screen and (max-width: 340px) {
+    .button {
+        padding: 4.5px 4.5px;
+        border-width: 1.25px;
+    }
+
+    .content {
+        margin-top: -100px;
+        width: 50%;
+        font-size: 6px;
+    }
+
+    a.cta {
+        margin-top: 18px;
+        padding: 7px 14px;
+    }
+
+    #b1 {
+        left: 29%;
+        top: 96%;
+    }
+
+    #b2 {
+        left: 36%;
+        top: 82.5%;
+    }
+
+    #b3 {
+        left: 41%;
+        top: 100%;
+    }
+
+    #b4 {
+        left: 45%;
+        top: 93%;
+    }
+
+    #b5 {
+        left: 49%;
+        top: 84%;
+    }
+
+    #b6 {
+        left: 41%;
+        top: 76.5%;
+    }
+
+    #b7 {
+        left: 52.5%;
+        top: 65.5%;
+    }
+
+    #b8 {
+        left: 59%;
+        top: 60%;
+    }
+
+    #b9 {
+        left: 70%;
+        top: 53.5%;
+    }
+
+    #b10 {
+        left: 67%;
+        top: 63.5%;
+    }
+}
+
+label {
+    color: black;
+}
+
+#input1:checked ~ #content1,
+
+#input2:checked ~ #content2,
+
+#input3:checked ~ #content3,
+
+#input4:checked ~ #content4,
+
+#input5:checked ~ #content5,
+
+#input6:checked ~ #content6,
+
+#input7:checked ~ #content7,
+
+#input8:checked ~ #content8,
+
+#input9:checked ~ #content9,
+
+#input10:checked ~ #content10 {
+    display: block !important;
+    animation: fadein .5s;
+}
+
+input:checked ~ label .button {
+    display: none !important;
+    animation: fadeout .5s;
+}
+
+.button:hover {
+    color: #d32f2f;
+    background: white;
+}
+
+.cta {
+    display: inline-block;
+    background: #d32f2f;
+    color: white;
+    padding: 12px 24px;
+    margin-top: 48px;
+    border-radius: 24px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.cta:hover {
+    text-decoration: underline !important;
+    box-shadow: 0 0 0 6px rgba(211, 46, 46, 0.4);
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fadeout {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes pulse {
+    from { box-shadow: 0 0 0 0px rgb(255, 255, 255); }
+    to { box-shadow: 0 0 0 15px rgba(0, 0, 0, 0); }
+}
+/** Carte interactive - Fin **/
+
+
+.description {
+  max-width: 600px;
+  margin: 0 auto;
+  color: rgba(229, 229, 229, 0.7);
+}
+
+.cartePhoto {
+  top: 76px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.carteElement div, img, footer {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.carteElement h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.carteElement h1 {
+  font-size: 36pt;
+}
+
+h2 {
+  font-size: 24pt;
+  color:red;
+}
+
+h3 {
+  font-size: 18pt;
+}
+
+h4 {
+  font-size: 16pt;
+}
+
+h5 {
+  font-size: 14pt;
+}
+
+h6 {
+  font-size: 12pt;
+}
+
+p {
+  font-size: 12pt;
+  margin-bottom: 12pt;
+  color: black;
+}
+
+strong {
+  font-weight: 900;
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  color: #e5e5e5;
+}
+
+a {
+  transition: color 0.25s ease-in-out;
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #dff3fd;
+}
+a:visited {
+  color: #dff3fd;
+}
+li.active a, a:hover, a:active {
+  color: #e5e5e5;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-y {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.distribution-map {
+  position: relative;
+  width: 100%;
+  padding-top: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.distribution-map > img {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.distribution-map .map-point {
+  cursor: pointer;
+  outline: none;
+  z-index: 0;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  transform: translate(-50%, -50%);
+  -moz-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+  -o-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+  -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out, z-index 0.25s ease-in-out;
+  -webkit-transition-delay: 0.25s, 0.25s, 0.25s, 0.25s;
+  transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+  background: rgba(26, 26, 26, 0.85);
+  border: 5px solid #7fcff7;
+}
+.distribution-map .map-point .content {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: overlay;
+}
+.distribution-map .map-point:active, .distribution-map .map-point:focus {
+  margin: 0;
+  padding: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  width: 700px;
+  height: 400px;
+  color: #e5e5e5;
+  z-index: 1;
+  transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
+}
+.distribution-map .map-point:active .content, .distribution-map .map-point:focus .content {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  -moz-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+  -webkit-transition-delay: 0.25s, 0s, 0s;
+  transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+  overflow: hidden;
+}
+.distribution-map .map-point:active .content a:hover, .distribution-map .map-point:active .content a:active, .distribution-map .map-point:focus .content a:hover, .distribution-map .map-point:focus .content a:active {
+  color: #afe1fa;
+}
+
+.slide {
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+width: 100%;
+height: 100vh;
+overflow-x: hidden;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+
+#frame {
+      margin: 0 auto;
+      width: 800px;
+      max-width: 100%;
+      text-align: center;
+    }
+    #frame label {
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    #slides {
+      padding: 10px;
+      border: 5px solid #0F0;
+      background: #00F;
+      position: relative;
+      z-index: 1;
+    }
+
+    #overflow {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    #frame2:checked~#slides .inner {
+      margin-left: -100%;
+    }
+
+    #slides .inner {
+      transition: margin-left 800ms
+        cubic-bezier(0.770, 0.000, 0.175, 1.000);
+      width: 400%;
+      line-height: 0;
+      height: 300px;
+    }
+
+    #slides .frame {
+      width: 25%;
+      float: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      color: #FFF;
+    }
+
+    #slides .frame_1 {
+      background: #90C;
+    }
+
+    #slides .frame_2 {
+      background: #F90;
+    }
+
+    #bullets {
+      margin: 150px 0 0;
+      text-align: center;
+    }
