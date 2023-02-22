@@ -16,4 +16,10 @@ class Direction extends Model
     protected $fillable = ['direction', 'lien_site', 'courriel', 'adresse', 'code_postal']; // Champs modifiables
     public $timestamps = true;  // Utilisation de created_at et updated_at
     use HasFactory;
+
+    //Relation avec la table utilisateurs
+    public function utilisateurs()
+    {
+        return $this->hasMany(Utilisateur::class,'id_direction','id');
+    }
 }

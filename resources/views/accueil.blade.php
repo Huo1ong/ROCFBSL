@@ -10,7 +10,7 @@
 
 @section('contenu')
 <div class="distribution-map">
-    <img class="cartePhoto carteElement carteInteractive" src="frontend/accueil/images/orientation V2.png" alt="" style="background-size: cover;"/>
+    <img class="cartePhoto carteElement carteInteractive" src="frontend/accueil/images/carte.png" alt="" style="background-size: cover;"/>
     <input type="checkbox" class="input" id="input1" name="inputs">
     <input type="checkbox" class="input" id="input2" name="inputs">
     <input type="checkbox" class="input" id="input3" name="inputs">
@@ -58,7 +58,7 @@
         <div style="text-align: right;">
             <label for="input1" class="cross">X</label>
         </div>
-        <img class="logoMaison" src="frontend/accueil/images/Logos%20des%20familles/Maison_de_la_famille_du_Kamouraska.png"> <!-- Logo -->
+        <img class="logoMaison" src="frontend/accueil/images/logosFamilles/Maison_de_la_famille_du_Kamouraska.png"> <!-- Logo -->
         <!-- Partie des informations -->
         <br>
         <label class="bodyCopy">
@@ -77,7 +77,7 @@
         <div style="text-align: right;">
             <label for="input2" class="cross">X</label>
         </div>
-        <img class="logoMaison" src="frontend/accueil/images/Logos%20des%20familles/Maison_de_la_famille_du_Grand_Portage.png"> <!-- Logo -->
+        <img class="logoMaison" src="frontend/accueil/images/logosFamilles/Maison_de_la_famille_du_Grand_Portage.png"> <!-- Logo -->
         <br>
         <!-- Partie des informations -->
         <label class="bodyCopy">
@@ -96,7 +96,7 @@
         <div style="text-align: right;">
             <label for="input3" class="cross">X</label>
         </div>
-        <img class="logoMaison" src="frontend/accueil/images/Logos%20des%20familles/Acti-familles.png"> <!-- Logo -->
+        <img class="logoMaison" src="frontend/accueil/images/logosFamilles/Acti-familles.png"> <!-- Logo -->
         <br>
         <!-- Partie des informations -->
         <label class="bodyCopy">
@@ -115,7 +115,7 @@
         <div style="text-align: right;">
             <label for="input4" class="cross">X</label>
         </div>
-        <img class="logoMaison" src="frontend/accueil/images/Logos%20des%20familles/Re-Source_Familles.png"> <!-- Logo -->
+        <img class="logoMaison" src="frontend/accueil/images/logosFamilles/Re-Source_Familles.png"> <!-- Logo -->
         <br>
         <!-- Partie des informations -->
         <label class="bodyCopy">
@@ -134,7 +134,7 @@
         <div style="text-align: right;">
             <label for="input5" class="cross">X</label>
         </div>
-        <img class="logoMaison" src="frontend/accueil/images/Logos%20des%20familles/Maison_de_la_famille_du_Témiscouata.png"> <!-- Logo -->
+        <img class="logoMaison" src="frontend/accueil/images/logosFamilles/Maison_de_la_famille_du_Témiscouata.png"> <!-- Logo -->
         <br>
         <!-- Partie des informations -->
         <label class="bodyCopy">
@@ -153,7 +153,7 @@
         <div style="text-align: right;">
             <label for="input6" class="cross">X</label>
         </div>
-        <img class="logoMaison" src="frontend/accueil/images/Logos%20des%20familles/Maison_de_la_famille_des_Basques.png"> <!-- Logo -->
+        <img class="logoMaison" src="frontend/accueil/images/logosFamilles/Maison_de_la_famille_des_Basques.png"> <!-- Logo -->
         <br>
         <!-- Partie des informations -->
         <label class="bodyCopy">
@@ -172,7 +172,7 @@
         <div style="text-align: right;">
             <label for="input7" class="cross">X</label>
         </div>
-        <img class="logoMaison" src="frontend/accueil/images/Logos%20des%20familles/Maison_des_familles_Rimouski-Neigette.png"> <!-- Logo -->
+        <img class="logoMaison" src="frontend/accueil/images/logosFamilles/Maison_des_familles_Rimouski-Neigette.png"> <!-- Logo -->
         <br>
         <!-- Partie des informations -->
         <label class="bodyCopy">
@@ -191,7 +191,7 @@
         <div style="text-align: right;">
             <label for="input8" class="cross">X</label>
         </div>
-        <img class="logoMaison" src="frontend/accueil/images/Logos%20des%20familles/Maison_de_la_famille_de_la_Mitis.png"> <!-- Logo -->
+        <img class="logoMaison" src="frontend/accueil/images/logosFamilles/Maison_de_la_famille_de_la_Mitis.png"> <!-- Logo -->
         <br>
         <!-- Partie des informations -->
         <label class="bodyCopy">
@@ -211,7 +211,7 @@
         <div style="text-align: right;">
             <label for="input9" class="cross">X</label>
         </div>
-        <img class="logoMaison" src="frontend/accueil/images/Logos%20des%20familles/Maison_de_la_famille_de_la_Matanie.png"> <!-- Logo -->
+        <img class="logoMaison" src="frontend/accueil/images/logosFamilles/Maison_de_la_famille_de_la_Matanie.png"> <!-- Logo -->
         <br>
         <!-- Partie des informations -->
         <label class="bodyCopy">
@@ -230,7 +230,7 @@
         <div style="text-align: right;">
             <label for="input10" class="cross">X</label>
         </div>
-        <img class="logoMaison" src="frontend/accueil/images/Logos%20des%20familles/Maison_de_la_famille_de_la_Matapédia.png"> <!-- Logo -->
+        <img class="logoMaison" src="frontend/accueil/images/logosFamilles/Maison_de_la_famille_de_la_Matapédia.png"> <!-- Logo -->
         <br>
         <!-- Partie des informations -->
         <label class="bodyCopy">
@@ -245,4 +245,3 @@
     </div>
 </div>
 @endsection
-

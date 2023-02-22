@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="frontend/template/nav.css"/>
-    <link rel="stylesheet" href="frontend/accueil/css/carte.css"/>
     @yield('ajouts_header')
     <title>@yield('titre')</title>
 </head>
@@ -23,7 +22,7 @@
             <div class="line3"></div>
         </div>
         <ul class="nav-links">
-            <li class="listeLiens"><a class="listeLiens" href="#">Notre Mission</a></li>
+            <li class="listeLiens"><a class="listeLiens" href="{{route('mission')}}">Notre Mission</a></li>
             <li class="listeLiens"><a href="#">Tables de Concertation</a></li>
             <a class="titreNav" href="{{route('accueil')}}">ROCF</a>
             <li class="listeLiens"><a href="{{route('partenaires')}}">Nos Partenaires</a></li>

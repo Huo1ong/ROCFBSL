@@ -7,11 +7,16 @@
 
 		<!-- STYLE CSS -->
 		<link rel="stylesheet" href="frontend/connexion/css/style.css">
+
+
 	</head>
 
 	<body>
+
 		<div class="wrapper">
+
 			<div class="inner">
+
 				<div class="image-holder">
 					<img src="frontend/connexion/images/rocf_bsl_logocomplet.png" alt="">
 				</div>
@@ -19,9 +24,11 @@
 				@csrf
 					<h3>Connexion</h3>
 					<div class="form-holder">
+                        {!! $errors->first('courriel', '<div class="error-message">:message</div>')!!}
 						<input type="text" name="courriel" placeholder="Courriel" class="form-control">
 					</div>
 					<div class="form-holder">
+                        {!!$errors->first('mdp', '<div class="error-message">:message</div>')!!}
 						<input type="password" name="mdp" placeholder="Mot de Passe" class="form-control" style="font-size: 15px;">
 					</div>
 					<div class="form-login">

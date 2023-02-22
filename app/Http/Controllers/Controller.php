@@ -24,21 +24,15 @@ class Controller extends BaseController
         return view('connexion');
     }
 
+    public function mission()
+    {
+        return view('mission');
+    }
+
     public function partenaires()
     {
         return view('partenaires');
     }
 
-    // Fonction pour l'authentification
-    public function authentification(Request $request)
-    {
-        $unUtilisateur = Utilisateur::where('courriel', $request->courriel)->first();
 
-        if ($unUtilisateur && Hash::check($request->mdp, $unUtilisateur->mdp))
-        {
-            $request->session()->put('courriel', $unUtilisateur);
-            $request->session()->put('role', $unUtilisateur->role);
-            return redirect()->route('partenaires');
-        }
-    }
 }

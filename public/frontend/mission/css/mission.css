@@ -1,0 +1,244 @@
+h1 {
+    color: black;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 26px;
+}
+
+
+.définition, .objectifs, .faireAppel {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto; /* centre horizontalement */
+}
+
+/* Partie des définitions */
+.définitionTitre, .définitionTexte, .définitionTextePartie1 {
+    color: #0d860d;
+}
+
+/* Début - Partie des objectifs */
+.objectifsTitre, .objectifsTexte1 , .objectifsTexte2 , .objectifsTexte3, .objectifsTextePartie1, .objectifsTextePartie2, .objectifsTextePartie3 {
+    color: #0d6086;
+}
+
+/* Début - Partie des "faire appel" */
+.faireAppelTitre {
+    color: #ab0d13;
+}
+
+.faireAppelTexte {
+    color: #db0f17;
+}
+
+.mission {
+    padding-top: 110px;
+    text-align: center;
+}
+
+.titrePage {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Partie Définition */
+.boxVerte1 {
+    background-color: #0d860f;
+    color: white;
+    padding: 15px;
+    border-radius: 35px;
+    width: 30%;
+    margin-bottom: 20px;
+}
+.boxVerte2 {
+    background-color: #0d860f;
+    color: white;
+    padding: 20px;
+    border-radius: 35px;
+    width: 50%;
+    margin-bottom: 2px;
+}
+.boxVerte3 {
+    background-color: #0d860f;
+    color: white;
+    padding: 10px;
+    border-radius: 35px;
+    width: 25%;
+}
+
+/* Partie Objectifs */
+.boxBleue1 {
+    background-color: #0d6086;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 20px;
+}
+.boxBleue2 {
+    background-color: #0d6086;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 15%;
+    margin-bottom: 2px;
+}
+.boxBleue3 {
+    background-color: #0d6086;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+/* Partie Faire Appel */
+.boxRouge1 {
+    background-color: #9d090f;
+    color: white;
+    padding: 15px;
+    width: 30%;
+    margin-bottom: 20px;
+}
+.boxRouge2 {
+    background-color: #9d090f;
+    color: white;
+    padding: 20px;
+    width: 40%;
+    margin-bottom: 2px;
+}
+.boxRouge3 {
+    background-color: #9d090f;
+    color: white;
+    padding: 10px;
+    width: 25%;
+}
+
+/* MEDIAS QUERY */
+@media screen and (max-width: 1030px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxVerte1 {
+        width: 35%;
+    }
+    .boxVerte2 {
+        width: 60%;
+    }
+    .boxVerte3 {
+        width: 20%;
+    }
+
+    .boxBleue1 {
+        width: 35%;
+    }
+    .boxBleue2 {
+        width: 20%;
+    }
+    .boxBleue3 {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxVerte1 {
+        width: 45%;
+    }
+    .boxVerte2 {
+        width: 60%;
+    }
+    .boxVerte3 {
+        width: 30%;
+    }
+
+    .boxBleue1 {
+        width: 45%;
+    }
+    .boxBleue2 {
+        width: 25%;
+    }
+    .boxBleue3 {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxVerte1 {
+        width: 50%;
+    }
+    .boxVerte2 {
+        width: 60%;
+    }
+    .boxVerte3 {
+        width: 30%;
+    }
+
+    .boxBleue1 {
+        width: 50%;
+    }
+    .boxBleue2 {
+        width: 25%;
+    }
+    .boxBleue3 {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxVerte1 {
+        width: 50%;
+    }
+    .boxVerte2 {
+        width: 70%;
+    }
+    .boxVerte3 {
+        width: 65%;
+    }
+
+
+    .boxBleue1 {
+        width: 50%;
+    }
+    .boxBleue2 {
+        width: 45%;
+    }
+    .boxBleue3 {
+        width: 70%;
+    }
+}

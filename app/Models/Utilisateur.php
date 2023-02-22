@@ -17,8 +17,15 @@ class Utilisateur extends Model
     public $timestamps = true;  // Utilisation de created_at et updated_at
     use HasFactory;
 
+    // Relation avec la table roles
     public function role()
     {
         return $this->belongsTo('App\Models\Role', 'id_role');
+    }
+
+    //Relation avec la table directions
+    public function direction()
+    {
+        return $this->belongsTo(Direction::class,'id_direction','id');
     }
 }
