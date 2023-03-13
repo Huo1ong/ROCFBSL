@@ -23,10 +23,10 @@
         </div>
         <ul class="nav-links">
             <li class="listeLiens"><a class="listeLiens" href="{{route('mission')}}">Notre Mission</a></li>
-            <li class="listeLiens"><a href="#">Tables de Concertation</a></li>
+            <li class="listeLiens"><a href="{{route('tableConcertation')}}">Tables de Concertation</a></li>
             <a class="titreNav" href="{{route('accueil')}}">ROCF</a>
             <li class="listeLiens"><a href="{{route('partenaires')}}">Nos Partenaires</a></li>
-            <li class="listeLiens"><a href="#">À Propos</a></li>
+            <li class="listeLiens"><a href="{{route('aPropos')}}">À Propos</a></li>
             <li class="listeBouton"><a class="login-button" href="{{route('connexion')}}">Espace Membre</a></li>
         </ul>
     </nav>

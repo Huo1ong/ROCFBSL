@@ -17,7 +17,9 @@ use App\Http\Controllers\UtilisateurController;
 Route::get('/',                         [Controller::class, 'accueil'])->name('accueil');
 Route::get('/accueil',                  [Controller::class, 'accueil'])->name('accueil');
 Route::get('/mission',                  [Controller::class, 'mission'])->name('mission');
+Route::get('/tableConcertation',        [Controller::class, 'tableConcertation'])->name('tableConcertation');
 Route::get('/partenaires',              [Controller::class, 'partenaires'])->name('partenaires');
+Route::get('/aPropos',                  [Controller::class, 'aPropos'])->name('aPropos');
 Route::get('/connexion',                [Controller::class, 'connexion'])->name('connexion');
 
 // Routes du Controller pour la gestion des utilisateurs et des rôles, session etc...

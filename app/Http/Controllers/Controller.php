@@ -29,10 +29,18 @@ class Controller extends BaseController
         return view('mission');
     }
 
+    public function tableConcertation()
+    {
+        return view('tableConcertation');
+    }
+
     public function partenaires()
     {
         return view('partenaires');
     }
 
-
+    public function aPropos()
+    {
+        return view('aPropos');
+    }
 }
