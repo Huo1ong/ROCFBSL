@@ -1,0 +1,132 @@
+h1 {
+    color: black;
+    font-size: 40px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 26px;
+}
+
+/* Début - Images */
+.divImageAPropos {
+    max-width: 100%;
+    padding-left: 200px;
+}
+
+.imageAPropos {
+    height: 300px;
+    width: 400px;
+    border:4px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+/* Fin - Images */
+
+/* Début - Paragraphes */
+.paragraphes {
+    display: flex;
+    align-items: center;
+}
+.paragraphes2 {
+
+}
+.paragrapheAPropos {
+    color: black;
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+}
+/* Fin - Paragraphes */
+
+
+/* Début - Rectangle de couleurs */
+/* À Propos */
+.titre-shadow-aPropos {
+    position: relative;
+    text-align: center; /* ajout de cette propriété */
+}
+
+.titre-rectangle-objectifs {
+    background-color: #0d6086;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 20px auto 5px; /* modification des marges */
+    border: 1px solid #fff;
+    width: fit-content;
+    display: inline-block; /* ajout de cette propriété */
+}
+
+.titre-rectangle-objectifs h1 {
+    color: #f0f0f0;
+    font-size: 24px;
+    margin: 0;
+}
+
+.titre-shadow-2-objectifs {
+    background-color: #093d53;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 15px auto 15px;
+    border: 1px solid #fff;
+    width: calc(100% + 20px);
+    max-width: 320px;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    z-index: -1;
+    margin-left: -20px;
+}
+/* Fin - Rectangle de couleurs */
+
+.aPropos {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto; /* centre horizontalement */
+}
+
+/* Début - Partie des "à propos" */
+.objectifsTitre, .objectifsTexte1 , .objectifsTexte2 , .objectifsTexte3, .objectifsTextePartie1, .objectifsTextePartie2, .objectifsTextePartie3 {
+    color: #0d6086;
+}
+
+.mission {
+    padding-top: 110px;
+    text-align: center;
+}
+
+.titrePage {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.divParagrapheAPropos {
+    max-width: 100%;
+}
+
+/* MEDIAS QUERY */
+@media screen and (max-width: 800px) {
+    .paragraphes {
+        flex-direction: column;
+    }
+    .divParagrapheAPropos {
+        padding-left: 0px;
+    }
+}
